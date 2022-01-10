@@ -80,7 +80,7 @@ rules:
       - patch
       - delete
   - apiGroups:
-      - azdo.octolamp.nl
+      - azdo.exh.nl
     resources:
       - agents
     verbs:
