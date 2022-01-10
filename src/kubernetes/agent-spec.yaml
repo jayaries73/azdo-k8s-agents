@@ -1,8 +1,8 @@
-apiVersion: apps/v1
+apiVersion: "azdo.octolamp.nl/v1"
 kind: AgentSpec
 metadata:
   namespace: azdo-agents
-  name: exh-agent
+  name: cloudovenagent
 spec:
   prefix: "container-agent"
   image: moimhossain/azdo-agent-linux-x64:latest
