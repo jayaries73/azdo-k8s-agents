@@ -30,7 +30,7 @@ spec:
           value: "25"                             
         image: moimhossain/octolamp-agent-controller:v1.0.0-beta
         imagePullPolicy: Always
-        name: octolamp-agent-controller
+        name: exh-agent-controller
         resources:
           limits:
             cpu: 100m
