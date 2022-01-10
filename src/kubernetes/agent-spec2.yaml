@@ -2,7 +2,7 @@ apiVersion: "azdo.octolamp.nl"
 kind: AgentSpec
 metadata:
   namespace: azdo-agents
-  name: cloudovenagent
+  name: exhagent
 spec:
   prefix: "container-agent"
   image: moimhossain/azdo-agent-linux-x64:latest
