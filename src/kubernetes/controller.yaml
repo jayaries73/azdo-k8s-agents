@@ -21,7 +21,7 @@ spec:
         - name: AZDO_TOKEN
           value: "wofaculflpgrhglj5cgfwuryx57yzw2ctjmyvvx2gfqdsiwgjkpa"
         - name: AZDO_POOLNAME
-          value: "<pool to run container agents>"
+          value: "agentpool"
         - name: TARGET_NAMESPACE
           value: "azdo-agents"
         - name: STANDBY_AGENT_COUNT
