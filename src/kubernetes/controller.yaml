@@ -1,25 +1,25 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: octolamp-agent-controller
-  namespace: octolamp-system
+  name: exh-agent-controller
+  namespace: exh-system
 spec:
   replicas: 1
   selector:
     matchLabels:
-      run: octolamp-agent-controller
+      run: exh-agent-controller
   template:
     metadata:
       labels:
-        run: octolamp-agent-controller
+        run: exh-agent-controller
     spec:
       serviceAccountName: octolamp-service-account
       containers:
       - env:
         - name: AZDO_ORG_URI
-          value: https://dev.azure.com/<YOUR ORG NAME>
+          value: https://dev.azure.com/juliuskevinezz
         - name: AZDO_TOKEN
-          value: "YOUR PAT TOKEN"
+          value: "wofaculflpgrhglj5cgfwuryx57yzw2ctjmyvvx2gfqdsiwgjkpa"
         - name: AZDO_POOLNAME
           value: "<pool to run container agents>"
         - name: TARGET_NAMESPACE
