@@ -1,4 +1,4 @@
-apiVersion: "azdo.octolamp.nl/v1"
+apiVersion: v1
 kind: AgentSpec
 metadata:
   namespace: azdo-agents
